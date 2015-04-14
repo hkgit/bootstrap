@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap",
+  "version": "1",
+  "description": "bootstrap boilerplate",
+  "main": "index.html",
+  "keywords": [
+    "bootstrap",
+    "boilerplate"
+  ],
+  "authors": [
+    "HK"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
