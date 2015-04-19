@@ -1,0 +1,141 @@
+/* Author: HK Yoon */
+/* variables */
+/* color */
+.floatRight {
+  float: right; }
+
+html {
+  height: 100%; }
+  html body {
+    font-size: 16px;
+    /*background-image:url("../img/bg.png");*/
+    background-position: center; }
+    html body .container {
+      position: relative;
+      background-color: transparent;
+      height: 100px;
+      letter-spacing: 1.0px;
+      color: #333; }
+      html body .container .row .title {
+        margin-top: 50px;
+        font-weight: bold;
+        letter-spacing: 0.75px;
+        line-height: 0.8em; }
+      html body .container .row .title span {
+        font-size: 0.6em;
+        color: #BBBBBB;
+        font-weight: normal; }
+    html body .container > .row {
+      margin: 20px 0;
+      padding: 20px 0; }
+    html body .suggestion1 .section1 {
+      width: 100%;
+      font-size: 0.75em; }
+    html body .suggestion1 .section2 {
+      text-align: center;
+      margin: 80px 0; }
+      html body .suggestion1 .section2 img {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        max-width: 200px; }
+      html body .suggestion1 .section2 p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 0.5em; }
+        html body .suggestion1 .section2 p span {
+          font-weight: bold;
+          font-size: 1.7em; }
+    html body .suggestion1 .application {
+      margin-top: 2px;
+      height: 60px; }
+      html body .suggestion1 .application img {
+        margin-left: 10px;
+        margin-top: 15px;
+        width: 100px; }
+      html body .suggestion1 .application img.floatRight {
+        width: 25px;
+        margin-right: 5px; }
+    html body .suggestion1 .application.app1 {
+      background-color: #E57F39; }
+    html body .suggestion1 .application.app2 {
+      background-color: #F4AE4A; }
+      html body .suggestion1 .application.app2 img {
+        -webkit-filter: drop-shadow(1.5px 1.5px 0.5px rgba(50, 50, 50, 0.3));
+        filter: url(#drop-shadow);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')"; }
+    html body .suggestion1 .application.app3 {
+      border: 1px dashed #F4AE4A; }
+    html body .suggestion1 .application.app4 {
+      background-color: #F4AE4A; }
+    html body .suggestion1 .application.app5 {
+      background-color: #b3b3b3;
+      text-align: center;
+      overflow: hidden;
+      height: auto; }
+      html body .suggestion1 .application.app5 img {
+        margin-left: -15px;
+        min-width: 300px; }
+    html body .sectionColor p {
+      margin-bottom: 50px;
+      font-size: 0.75em; }
+    html body .sectionColor .row > div {
+      padding: 0; }
+    html body .sectionColor .row.chips {
+      margin-bottom: 50px; }
+    html body .sectionColor .color {
+      font-size: 0.7em;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 25px;
+      height: 80px; }
+    html body .sectionColor .color > p {
+      padding-top: 15px;
+      padding-left: 5px;
+      line-height: 1.6em; }
+    html body .sectionColor .color span {
+      font-size: 0.2em;
+      margin-top: -5px; }
+    html body .sectionColor .color.key {
+      background-color: #E57F39;
+      color: white; }
+    html body .sectionColor .color.sub {
+      background-color: #F4AE4A;
+      color: white; }
+    html body .sectionColor .color.clean {
+      background-color: #FCF1E6; }
+
+@media screen and (min-width: 768px) {
+  html body .container .row .title {
+    margin-top: 100px; }
+  html body .container > .row {
+    margin: 25px 0;
+    padding: 25px 0; }
+  html body .suggestion1 .section1 {
+    margin-top: 50px;
+    font-size: 1em; }
+  html body .suggestion1 .section2 {
+    margin: 150px 0; }
+    html body .suggestion1 .section2 img {
+      max-width: 275px; }
+    html body .suggestion1 .section2 p {
+      margin-top: 100px; }
+  html body .suggestion1 .application img {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 125px; }
+  html body .suggestion1 .application img.floatRight {
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 12px; }
+  html body .suggestion1 .application.app5 img {
+    min-width: 50%; }
+  html body .sectionColor p {
+    font-size: 1em; }
+  html body .sectionColor .color {
+    height: 60px; }
+  html body .sectionColor .color p {
+    padding-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
