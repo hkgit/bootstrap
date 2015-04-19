@@ -60,11 +60,6 @@ html {
       background-color: #E57F39; }
     html body .suggestion1 .application.app2 {
       background-color: #F4AE4A; }
-      html body .suggestion1 .application.app2 img {
-        -webkit-filter: drop-shadow(1.5px 1.5px 0.5px rgba(50, 50, 50, 0.3));
-        filter: url(#drop-shadow);
-        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')"; }
     html body .suggestion1 .application.app3 {
       border: 1px dashed #F4AE4A; }
     html body .suggestion1 .application.app4 {
@@ -95,7 +90,6 @@ html {
       padding-left: 5px;
       line-height: 1.6em; }
     html body .sectionColor .color span {
-      font-size: 0.2em;
       margin-top: -5px; }
     html body .sectionColor .color.key {
       background-color: #E57F39;
